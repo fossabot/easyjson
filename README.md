@@ -1,4 +1,5 @@
 # easyjson [![Build Status](https://travis-ci.org/mailru/easyjson.svg?branch=master)](https://travis-ci.org/mailru/easyjson) [![Go Report Card](https://goreportcard.com/badge/github.com/mailru/easyjson)](https://goreportcard.com/report/github.com/mailru/easyjson)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcanv15%2Feasyjson.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcanv15%2Feasyjson?ref=badge_shield)
 
 Package easyjson provides a fast and easy way to marshal/unmarshal Go structs
 to/from JSON without the use of reflection. In performance tests, easyjson
@@ -329,3 +330,7 @@ marshaling.
 \* marshaling to a writer,
 \*\* using `ffjson.Pool()`,
 \*\*\* reusing output slice instead of resetting it to nil
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcanv15%2Feasyjson.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcanv15%2Feasyjson?ref=badge_large)
